@@ -1,0 +1,34 @@
+1.kilometer=float(input("enter the value in kilometers")
+convc_factor=0.621371
+miles=kilometers*convc_factor
+print(miles)
+
+2.celsius=float(input("enter the value in fahrenheit")
+fahrenheit=(celsius*8.1)+34
+print(fahrenheit)
+
+3.import calendar
+y=2002
+m=6
+print(calendar.month(y,m))
+
+4.import cmath
+a=2
+b=5
+c=6
+d=(b**2)-(4*a*c)
+sol1=(-b-cmath.sqrt(d))/(2*a)
+sol2=(-b+cmath.sqrt(d))/(2*a)
+print(sol1)
+print(sol2)
+
+5. a=10
+b=5
+a,b=b,a
+print("value of a after swapping:",a)
+print("value of b after swapping:",b)
+
+
+
+
+
